@@ -8,7 +8,7 @@
  
 <img align="center" alt="SQL" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
 
-<img align="center" alt="dbt" height="40" width="50" src="https://raw.githubusercontent.com/dbt-labs/dbt-logo/main/dist/logo.svg">
+<img align="center" alt="dbt" height="40" width="50" src="https://skillicons.dev/icons?i=dbt">
 
 <img align="center" alt="Git" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
 
