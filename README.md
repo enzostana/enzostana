@@ -1,5 +1,5 @@
 ### Hello, I'm Enzo Sá 👋
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=enzostana&bg_color=000000&color=FFA500&line=F0E68C&point=FF8C00&area=true&hide_border=true)
+<img src="https://raw.githubusercontent.com/enzostana/enzostana/output/snake.svg" alt="Snake animation" />
 
 
  ### Main skills:
