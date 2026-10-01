@@ -1,25 +1,26 @@
-### Hello, I'm Enzo Sá 👋
-<img src="https://raw.githubusercontent.com/enzostana/enzostana/output/snake.svg" alt="Snake animation" />
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="./.github/assets/mobile/readme-aura-component-0-637968f7.svg">
+  <img src="./.github/assets/readme-aura-component-0-5dbf23b0.svg" width="860" alt="Enzo Sá — Data Engineer at @Prefeitura do Rio. Python, SQL and dbt.">
+</picture>
+</p>
 
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="./.github/assets/mobile/readme-aura-component-1-2b8bf8d9.svg">
+  <img src="./.github/assets/readme-aura-component-1-563b3235.svg" width="860" alt="GitHub statistics: public repositories, stars received and commits in repository histories.">
+</picture>
+</p>
 
- ### Main skills:
-<div style="display: inline_block"><br>
- <img align="center" alt="Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
- 
-<img align="center" alt="SQL" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
+<p>
+<picture>
+  <source media="(max-width: 600px)" srcset="./.github/assets/mobile/readme-aura-component-2-b19eab8e.svg">
+  <img src="./.github/assets/readme-aura-component-2-8b3b4e8b.svg" width="860" alt="Tech stack: Python, SQL, dbt, Git and Linux. Learning Docker.">
+</picture>
+</p>
 
-<img align="center" alt="dbt" height="40" width="50" src="https://raw.githubusercontent.com/dbt-labs/dbt/ec7dee39f793aa4f7dd3dae37282cc87664813e4/etc/dbt-logo-full.svg">
+<p align="center">
+<a href="https://www.linkedin.com/in/enzosa/"><img alt="LinkedIn" src="./.github/assets/readme-aura-component-3-8f01859a.svg" width="120" height="44" /></a><a href="https://www.instagram.com/enzostana/"><img alt="Instagram" src="./.github/assets/readme-aura-component-4-0a87ba5d.svg" width="138" height="44" /></a><a href="mailto:enzostana@proton.me"><img alt="Email" src="./.github/assets/readme-aura-component-5-7c73fd9f.svg" width="110" height="44" /></a>
+</p>
 
-<img align="center" alt="Git" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-
-<img align="center" alt="Linux" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
-</div>
-
-### Studying in this moment:
- <img align="center" alt="Docker" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
-
-<div align="center"> 
-<a href="https://instagram.com/enzostana" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"</a>
-<a href = "mailto:enzostana@proton.me"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/enzosa/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px" target="_blank"></a> 
- </div>
+<p align="center"><sub>Layout inspired by <a href="https://github.com/collectioneur/collectioneur">collectioneur</a> · powered by <a href="https://github.com/collectioneur/readme-aura">readme-aura</a></sub></p>
