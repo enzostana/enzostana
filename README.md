@@ -23,4 +23,3 @@
 <a href="https://www.linkedin.com/in/enzosa/"><img alt="LinkedIn" src="./.github/assets/readme-aura-component-3-8f01859a.svg" width="120" height="44" /></a><a href="https://www.instagram.com/enzostana/"><img alt="Instagram" src="./.github/assets/readme-aura-component-4-0a87ba5d.svg" width="138" height="44" /></a><a href="mailto:enzostana@proton.me"><img alt="E-mail" src="./.github/assets/readme-aura-component-5-8e13af96.svg" width="110" height="44" /></a>
 </p>
 
-<p align="center"><sub>Visual inspirado em <a href="https://github.com/collectioneur/collectioneur">collectioneur</a> · gerado com <a href="https://github.com/collectioneur/readme-aura">readme-aura</a></sub></p>
