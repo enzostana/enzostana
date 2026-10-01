@@ -52,7 +52,7 @@ try {
   const mobileImages = [...readFileSync('.readme-mobile.md', 'utf8').matchAll(/!\[[^\]]+\]\(([^ ]+) "[^"]+"\)/g)].map(match => match[1]);
   const descriptions = [
     'Enzo Sá — Data Engineer na @Prefeitura do Rio. Python, SQL e dbt.',
-    'Estatísticas do GitHub: repositórios públicos, estrelas recebidas e revisões no histórico dos repositórios.',
+    'Estatísticas do GitHub: repositórios públicos, estrelas recebidas e commits no histórico dos repositórios.',
     'Tecnologias: Python, SQL, dbt, Git e Linux. Estudando Docker.',
   ];
   let readme = readFileSync('README.md', 'utf8');
