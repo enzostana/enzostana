@@ -42,7 +42,7 @@ const mobile = blocks.map((block, index) => {
     block = block.replaceAll('height=210', 'height=220').replaceAll('height="210"', 'height="220"')
       .replace("padding: '18px 32px'", "padding: '20px 24px'")
       .replaceAll('fontSize:10', 'fontSize:12').replaceAll('fontSize:12, fontWeight:600', 'fontSize:14, fontWeight:600')
-      .replace('gap:16', 'gap:12').replace('width:90', 'width:80');
+      .replace('gap:16', 'gap:12').replace('width:90', 'width:96');
   }
   return block;
 }).join('\n\n');
@@ -51,9 +51,9 @@ try {
   render('.readme-mobile.source.md', '.readme-mobile.md', '.github/assets/mobile');
   const mobileImages = [...readFileSync('.readme-mobile.md', 'utf8').matchAll(/!\[[^\]]+\]\(([^ ]+) "[^"]+"\)/g)].map(match => match[1]);
   const descriptions = [
-    'Enzo Sá — Data Engineer at @Prefeitura do Rio. Python, SQL and dbt.',
-    'GitHub statistics: public repositories, stars received and commits in repository histories.',
-    'Tech stack: Python, SQL, dbt, Git and Linux. Learning Docker.',
+    'Enzo Sá — Data Engineer na @Prefeitura do Rio. Python, SQL e dbt.',
+    'Estatísticas do GitHub: repositórios públicos, estrelas recebidas e revisões no histórico dos repositórios.',
+    'Tecnologias: Python, SQL, dbt, Git e Linux. Estudando Docker.',
   ];
   let readme = readFileSync('README.md', 'utf8');
   let index = 0;
@@ -61,7 +61,7 @@ try {
     const i = index++;
     return `<p>\n<picture>\n  <source media="(max-width: 600px)" srcset="${mobileImages[i]}">\n  <img src="${desktop}" width="860" alt="${descriptions[i]}">\n</picture>\n</p>`;
   });
-  for (const [offset, label] of ['LinkedIn', 'Instagram', 'Email'].entries()) {
+  for (const [offset, label] of ['LinkedIn', 'Instagram', 'E-mail'].entries()) {
     readme = readme.replaceAll(`<img src="./.github/assets/readme-aura-component-${offset + 3}-`, `<img alt="${label}" src="./.github/assets/readme-aura-component-${offset + 3}-`);
   }
   writeFileSync('README.md', readme);

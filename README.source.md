@@ -109,7 +109,7 @@
      Enzo Sá
    </div>
    <div style={{ display:'flex', fontSize:15, color:'rgba(180,165,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
-     Data Engineer at @Prefeitura do Rio
+     Data Engineer na @Prefeitura do Rio
    </div>
    <div style={{ display:'flex', gap:8, marginTop:6 }}>
      {['Python', 'SQL', 'dbt'].map(function(tag) {
@@ -129,9 +129,9 @@
 ```aura width=860 height=140
 (function() {
  var stats = [
-   { label: 'Repos', value: String(github.stats.totalRepos), color: '#a78bfa' },
-   { label: 'Stars', value: String(github.stats.totalStars), color: '#60a5fa' },
-   { label: 'Repo commits', value: String(github.stats.totalCommits), color: '#f59e0b' },
+   { label: 'Repositórios', value: String(github.stats.totalRepos), color: '#a78bfa' },
+   { label: 'Estrelas', value: String(github.stats.totalStars), color: '#60a5fa' },
+   { label: 'Revisões', value: String(github.stats.totalCommits), color: '#f59e0b' },
  ];
 
  return (
@@ -238,9 +238,9 @@
 (function() {
  var topLangs = github.languages.slice(0, 6).map(function(l) { return l.name; });
  var categories = [
-   { title: 'Languages', color: '#a78bfa', items: ['Python', 'SQL'] },
-   { title: 'Tools', color: '#60a5fa', items: ['dbt', 'Git', 'Linux'] },
-    { title: 'Learning', color: '#22d3ee', items: ['Docker'] },
+   { title: 'Linguagens', color: '#a78bfa', items: ['Python', 'SQL'] },
+   { title: 'Ferramentas', color: '#60a5fa', items: ['dbt', 'Git', 'Linux'] },
+    { title: 'Estudando', color: '#22d3ee', items: ['Docker'] },
  ];
 
  return (
@@ -328,7 +328,7 @@
      </svg>
 
      <div style={{ display:'flex', fontSize:10, fontWeight:700, color:'rgba(155,140,210,0.5)', letterSpacing:'3px' }}>
-       TECH STACK
+       TECNOLOGIAS
      </div>
      <div style={{ display:'flex', flexDirection:'column', gap:14 }}>
        {categories.map(function(cat) {
@@ -392,7 +392,7 @@
 ```aura width=110 height=44 link="mailto:enzostana@proton.me" inline align=center
 <SocialMediaButton
   icon="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjUiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgcng9IjIiLz48cGF0aCBkPSJtMyA2IDkgNyA5LTciLz48L3N2Zz4="
-  text="Email"
+  text="E-mail"
   backgroundColor="#000000"
   width={110}
   height={44}
@@ -405,4 +405,4 @@
   ]}
 />
 ```
-<p align="center"><sub>Layout inspired by <a href="https://github.com/collectioneur/collectioneur">collectioneur</a> · powered by <a href="https://github.com/collectioneur/readme-aura">readme-aura</a></sub></p>
+<p align="center"><sub>Visual inspirado em <a href="https://github.com/collectioneur/collectioneur">collectioneur</a> · gerado com <a href="https://github.com/collectioneur/readme-aura">readme-aura</a></sub></p>
