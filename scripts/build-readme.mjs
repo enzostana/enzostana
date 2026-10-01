@@ -51,9 +51,9 @@ try {
   render('.readme-mobile.source.md', '.readme-mobile.md', '.github/assets/mobile');
   const mobileImages = [...readFileSync('.readme-mobile.md', 'utf8').matchAll(/!\[[^\]]+\]\(([^ ]+) "[^"]+"\)/g)].map(match => match[1]);
   const descriptions = [
-    'Enzo Sá — Data Engineer na @Prefeitura do Rio. Python, SQL e dbt.',
+    'Enzo Sá — Data Engineer at @Prefeitura do Rio. Python, SQL, dbt e GCP.',
     'Estatísticas do GitHub: repositórios públicos, estrelas recebidas e commits no histórico dos repositórios.',
-    'Tecnologias: Python, SQL, dbt, Git e Linux. Estudando Docker.',
+    'Tecnologias: Python, SQL, dbt, Git, Linux e GCP. Estudando Docker e Self Hosted.',
   ];
   let readme = readFileSync('README.md', 'utf8');
   let index = 0;

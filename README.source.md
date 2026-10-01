@@ -109,10 +109,10 @@
      Enzo Sá
    </div>
    <div style={{ display:'flex', fontSize:15, color:'rgba(180,165,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
-     Data Engineer na @Prefeitura do Rio
+     Data Engineer at @Prefeitura do Rio
    </div>
    <div style={{ display:'flex', gap:8, marginTop:6 }}>
-     {['Python', 'SQL', 'dbt'].map(function(tag) {
+     {['Python', 'SQL', 'dbt', 'GCP'].map(function(tag) {
        return (
          <div key={tag} style={{
            display:'flex', padding:'4px 12px', borderRadius:20,
@@ -239,8 +239,8 @@
  var topLangs = github.languages.slice(0, 6).map(function(l) { return l.name; });
  var categories = [
    { title: 'Linguagens', color: '#a78bfa', items: ['Python', 'SQL'] },
-   { title: 'Ferramentas', color: '#60a5fa', items: ['dbt', 'Git', 'Linux'] },
-    { title: 'Estudando', color: '#22d3ee', items: ['Docker'] },
+   { title: 'Ferramentas', color: '#60a5fa', items: ['dbt', 'Git', 'Linux', 'GCP'] },
+    { title: 'Estudando', color: '#22d3ee', items: ['Docker', 'Self Hosted'] },
  ];
 
  return (
