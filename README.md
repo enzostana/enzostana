@@ -7,8 +7,8 @@
 
 <p>
 <picture>
-  <source media="(max-width: 600px)" srcset="./.github/assets/mobile/readme-aura-component-1-7afc3d46.svg">
-  <img src="./.github/assets/readme-aura-component-1-50fcf37a.svg" width="860" alt="Estatísticas do GitHub: repositórios públicos, estrelas recebidas e commits no histórico dos repositórios.">
+  <source media="(max-width: 600px)" srcset="./.github/assets/mobile/readme-aura-component-1-2378b861.svg">
+  <img src="./.github/assets/readme-aura-component-1-ba82401b.svg" width="860" alt="Estatísticas do GitHub: repositórios públicos, estrelas recebidas e commits no histórico dos repositórios.">
 </picture>
 </p>
 
