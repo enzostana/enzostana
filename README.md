@@ -1,14 +1,14 @@
 <p>
 <picture>
-  <source media="(max-width: 600px)" srcset="./.github/assets/mobile/readme-aura-component-0-41fae467.svg">
-  <img src="./.github/assets/readme-aura-component-0-7a58a0d3.svg" width="860" alt="Enzo Sá — Data Engineer at @Prefeitura do Rio. Python, SQL, dbt e GCP.">
+  <source media="(max-width: 600px)" srcset="./.github/assets/mobile/readme-aura-component-0-28b3de26.svg">
+  <img src="./.github/assets/readme-aura-component-0-bad563e3.svg" width="860" alt="Enzo Sá — Data Engineer at @Prefeitura do Rio. Python, SQL, dbt e GCP.">
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(max-width: 600px)" srcset="./.github/assets/mobile/readme-aura-component-1-9a4c0b49.svg">
-  <img src="./.github/assets/readme-aura-component-1-7472bfe3.svg" width="860" alt="Estatísticas do GitHub: repositórios públicos, estrelas recebidas e commits no histórico dos repositórios.">
+  <source media="(max-width: 600px)" srcset="./.github/assets/mobile/readme-aura-component-1-9c7e05db.svg">
+  <img src="./.github/assets/readme-aura-component-1-5aee13d1.svg" width="860" alt="Estatísticas do GitHub: repositórios públicos, estrelas recebidas e commits no histórico dos repositórios.">
 </picture>
 </p>
 
